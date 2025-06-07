@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java / Groovy
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Test reports
+test-output/
+allure-results/
+allure-report/
+
+# VS Code
+.vscode/
+
+# IntelliJ IDEA (if shared with IntelliJ users)
+.idea/
+*.iml
+
+# OS / System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.tmp
+
+# Environment / Credentials (if applicable)
+.env
+*.key
+*.pem
+*.crt
+secrets.properties
